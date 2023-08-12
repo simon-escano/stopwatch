@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stopwatch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/prj1-stopwatch.css">
+  </head>
+  <body>
+    <div class="background-container">
+      <img class="background" src="images/background3.png">
+    </div>
+    <div class="container">
+      <div class="title">Stopwatch</div>
+
+      <div class="time-area">
+        <div class="timer">
+          <div class="timer-seconds"></div>
+          <div class="timer-milliseconds"></div>
+        </div>
+        <div class="current-time">
+          <img class="clock-icon" src="images/clock-icon.svg">
+          <div class="time"></div>
+        </div>
+      </div>
+
+      <div class="buttons">
+        <div class="timer-buttons">
+          <div class="play-button">
+            <img class="icon" src="images/play-icon.svg">
+          </div>
+          <div class="stop-button">
+            <img class="icon" src="images/stop-icon.svg">
+          </div>
+        </div>
+        <div class="lap-button">Lap</div>
+      </div>
+
+      <div class="laps"></div>
+
+      <div class="choose-background">
+        <img class="mini-background bgChoice1" src="images/background1.jpg">
+        <img class="mini-background bgChoice2" src="images/background2.jpg">
+        <img class="mini-background bgChoice3" src="images/background3.png">
+        <button class="bg-none-button bgChoice0"><img class="none-icon" src="images/none-icon.svg"></button>
+      </div>
+
+    </div>
+    <script src="scripts/prj1-stopwatch.js"></script>
+  </body>
+</html>
