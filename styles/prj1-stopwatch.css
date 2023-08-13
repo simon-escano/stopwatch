@@ -36,9 +36,13 @@
   border-radius: 20px;
   border: 5px solid rgba(0, 0, 0, 0.151);
   cursor: pointer;
+  filter: grayscale(0.7);
 } .mini-background-selected {
   border: 5px solid #2dc954ab;
   width: 140px;
+  filter: grayscale(0);
+} .mini-background:hover {
+  filter: grayscale(0);
 } .bg-none-button {
   aspect-ratio: 1/1;
   height: 65px;
